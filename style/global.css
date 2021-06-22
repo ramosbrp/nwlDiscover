@@ -26,6 +26,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh; /* view height */
     width: 100vw; /* view width */
     background: var(--background);

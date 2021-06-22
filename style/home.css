@@ -15,18 +15,19 @@ header{ grid-area: header; }
     grid-area: left;
 
     background: url('/assets/home-bg-img.svg') no-repeat top/contain;
-
+    background-position: -10rem;
 }
 
 main{ 
-    grid-area: right; 
+    margin-top: -12rem;
+    grid-area: right;
 
     display: flex;
     align-items: center;
 }
 
 main .container{
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2{
@@ -46,4 +47,27 @@ input{
 input, button, .button{
     width: 100%;
     margin-bottom: 1.8rem;
+}
+
+/* Separator Line */
+.separator{
+    display: flex;
+    align-items: center;
+
+    margin: 4rem 0;
+}
+.separator div:nth-child(2){
+    color: var(--gray-blue);
+    margin: 1.345rem;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+/* nth-child() - Escolhe os filhos da classe por número */
+.separator div:nth-child(1),
+.separator div:nth-child(3){
+    background: var(--gray-blue);
+    width: 100%;
+    height: .1rem;
+    line-height: 0;
 }
