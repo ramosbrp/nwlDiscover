@@ -1,9 +1,12 @@
+.content{
+    max-width: min(112rem, 90%);
+}
+
 #room header{
     width: 100%;
-
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #room header .buttons{
@@ -28,4 +31,102 @@
 #room header .buttons .button:nth-child(2) img{
     width: 2rem;
     height: 2rem;
+}
+
+/* Quesntion form */
+
+#question-form h2{
+    font-family: 'Poppins';
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 4.2rem;
+
+    margin-bottom: 2.4rem;
+}
+
+#question-form form{
+    border: .2rem solid var(--gray-blue);
+    padding: 1.6rem;
+    border-radius: 0 .8rem .8rem .8rem;
+
+    margin-bottom: 1.6rem;
+}
+
+#question-form form textarea{
+    resize: none;
+    background: none;
+    width: 100%;
+
+    outline: none;
+}
+
+/* Para alterar o placehoder de textarea */
+#question-form form textarea::placeholder{
+    color: var(--gray-blue);
+}
+
+#question-form form footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Para pegar as divs filhas diretas de footer e não as netas */
+#question-form form footer > div{
+    display: flex;    
+    color: var(--icons-details);
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#question-form form footer > div img{
+    margin-right: .6rem;
+}
+
+#question-form form footer button{
+    height: auto;
+    padding: .8rem 2.4rem;
+    line-height: 2.4rem;
+}
+
+#questions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+
+}
+
+#questions .question-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    background-color: var(--light-blue);
+    
+    padding: 2.4rem;
+}
+
+#questions .question-wrapper .question-content{
+    display: flex;
+    align-items: center;            
+}
+
+#questions .question-wrapper .actions{
+    display: flex;
+    margin-right: .8rem;
+}
+
+#questions .question-wrapper .question-content .question{
+    margin-left: 1.6rem;
+
+}
+
+#questions .question-wrapper .actions a{
+    font-family: Open Sans;
+    color: var(--gray);
 }

@@ -8,15 +8,16 @@
 
 html{
     /*Criando variáveis*/
-    --black: #0d114f;
+    --black: #0D114f;
     --white: #FAFAFA;
     --red: #E83F5B;
     --light-blue: #E0ECFF;
     --blue: #3485FF;
     --background: #F6FAFF;
     --overlay: #040911;
-    --icons: #A5B0C1;
+    --icons-details: #A5B0C1;
 
+    --gray: #4D5E77;
     --gray-dark: #4D5E77;
     --gray-blue: #A1B2CD;
     --gray-light: #E5EAF1;
@@ -103,5 +104,5 @@ button.outlined,
 
 .content header img{
     width: 16.7rem;
-    margin
+
 }
