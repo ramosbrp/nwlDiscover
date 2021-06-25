@@ -1,0 +1,23 @@
+{
+  "name": "discovery",
+  "version": "1.0.0",
+  "description": "Programa criado na NLW Rocketseat para gerenciar mensagens anônimas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramosbrp/nwlDiscovery.git"
+  },
+  "author": "Bruno Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramosbrp/nwlDiscovery/issues"
+  },
+  "homepage": "https://github.com/ramosbrp/nwlDiscovery#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
