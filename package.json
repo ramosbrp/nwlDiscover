@@ -2,9 +2,9 @@
   "name": "discovery",
   "version": "1.0.0",
   "description": "Programa criado na NLW Rocketseat para gerenciar mensagens anônimas",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
