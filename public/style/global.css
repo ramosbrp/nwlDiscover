@@ -106,7 +106,7 @@ button.red,
 }
 
 button.gray,
-.button{
+.button.gray{
     background: var(--gray-light);
     color: var(--gray-dark);
 }
